@@ -94,7 +94,7 @@ const flowDiscord = addKeyword(["discord"]).addAnswer(
 );
 
 const flowPrincipal = addKeyword(["hola", "ole", "alo"])
-  .addAnswer("🙌 Hola bienvenido a este *Chatbot*")
+  .addAnswer("🙌 Hola bienvenid@ a llama a llama*")
   .addAnswer(
     [
       "te comparto los siguientes links de interes sobre el proyecto",
