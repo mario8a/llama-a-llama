@@ -16,18 +16,6 @@ const MongoAdapter = require("@bot-whatsapp/database/mongo");
 const MONGO_DB_URI = "mongodb://0.0.0.0:27017";
 const MONGO_DB_NAME = "db_bot";
 
-/**
- * Aqui declaramos los flujos hijos, los flujos se declaran de atras para adelante, es decir que si tienes un flujo de este tipo:
- *
- *          Menu Principal
- *           - SubMenu 1
- *             - Submenu 1.1
- *           - Submenu 2
- *             - Submenu 2.1
- *
- * Primero declaras los submenus 1.1 y 2.1, luego el 1 y 2 y al final el principal.
- */
-
 const Groq = require("groq-sdk");
 const key = "";
 
