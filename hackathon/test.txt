@@ -1,0 +1,1 @@
+curl -X GET "https://a19c-2806-2a0-d12-8986-416f-6736-ed6a-1718.ngrok-free.app/webhook?hub.verify_token=2ngtMXSDkqqGWJdh9kcDSLLLqpI_6995hTkRigMgAVVs3czvQ&hub.mode=subscribe"
